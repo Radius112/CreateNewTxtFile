@@ -24,7 +24,6 @@ int main()
 				std::cout << "PUT YOUR WORDS BELOW ";
 				std::cout << "\n";
 				readers.open(createuser, std::ios::app);
-				readers.open(createuser, std::ios::app);
 				if (readers.is_open()) {
 					for (int i = 0; i < lines; i++) {
 						std::cin >> text;
